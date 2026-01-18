@@ -24,10 +24,10 @@ except:
 
 # Pyrogram setup
 class PyroConf(object):
-    API_ID = int(getenv("API_ID", "6"))
-    API_HASH = getenv("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = getenv("BOT_TOKEN")
-    SESSION_STRING = getenv("SESSION_STRING")
+    API_ID = int(getenv("API_ID", "26357539"))
+    API_HASH = getenv("API_HASH", "09ad257e2c2bc27f541f0464cf6f2976")
+    BOT_TOKEN = getenv("8262726640:AAH_4LZ2HomteyM-J67itE_P31o6SITLN4k")
+    SESSION_STRING = getenv("BQGSLyMAtcVPxPRtQDA_JwnZooAhEkDR2SxKSo4gNPy-GYXojaFgdTFz2Qjl-65Ns_0QEzAHLXmMDtOX-cLqXCywF05D9YQzvBWOA3OhB31HNsL3ruiTahX718rYKY2H_wd58leFyo3Gynxpu0hqlV_Dxkrz9U6rHETHl3gcmxofkBPGcLS6PzlQ6ORr-DNFZqXNYmuq7UPpSGFNBihO7WUX1XW4E4mImOTFJazY-kXnBbdGBYVz4sxAhhjDVWot3y-UyaFZZbWWEj3YQtWV-3Dum3n-znAxKkjEABAWuL8xaC2Gz_OSasQxVMzlIWRHOJzhludJGPLS2yZ0jve_jMYduSFK7QAAAAHxl_zaAA")
     BOT_START_TIME = time()
 
     MAX_CONCURRENT_DOWNLOADS = int(getenv("MAX_CONCURRENT_DOWNLOADS", "3"))
